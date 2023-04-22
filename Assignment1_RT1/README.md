@@ -108,14 +108,6 @@ Each `Marker` object has the following attributes:
 * `rot_y`: an alias for `centre.rot_y`
 * `timestamp`: the time at which the marker was seen (when `R.see` was called).
 
-For example, the following code lists all of the silver markers the robot can see:
-
-```python
-for token in R.see():
-        if token.dist < dist and token.info.marker_type is MARKER_TOKEN_SILVER:
-            ...
-            ...
-```
 
 Code Description
 ----------------
