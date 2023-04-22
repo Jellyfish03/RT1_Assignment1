@@ -12,7 +12,7 @@ Installing
 At first clone this repository in ur workspace.
 
 The simulator requires a Python 2.7 and some libraries:
-- [pygame](http://pygame.org/) library
+- [pygame](http://pygame.org/) 
 - [PyPyBox2D](https://pypi.python.org/pypi/pypybox2d/2.1-r331)
 - [PyYAML](https://pypi.python.org/pypi/PyYAML/).
 
