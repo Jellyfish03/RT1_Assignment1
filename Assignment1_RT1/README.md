@@ -228,15 +228,9 @@ Flowchart
 
 ### Overall ###
 
-![alt text](https://github.com/kazu610/1st_assignment_RT1/blob/main/Pics/overall.png)
+![alt text](https://github.com/Jellyfish03/RT1_Assignment1/blob/main/Assignment1_RT1/Pics/Function.png)
 
 ### Move toward it (predefined process) ###
 
-![alt text](https://github.com/kazu610/1st_assignment_RT1/blob/main/Pics/function.png)
+![alt text](https://github.com/Jellyfish03/RT1_Assignment1/blob/main/Assignment1_RT1/Pics/Move%20to%20it.png)
 
-Movie (x2.5)
------
-
-https://user-images.githubusercontent.com/114085558/201495128-f24fb25d-81d8-4c5d-b222-fe84f5aa85c9.mp4
-
-[sr-api]: https://studentrobotics.org/docs/programming/sr/
