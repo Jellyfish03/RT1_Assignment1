@@ -16,7 +16,7 @@ The simulator requires a Python 2.7 and some libraries:
 - [PyPyBox2D](https://pypi.python.org/pypi/pypybox2d/2.1-r331)
 - [PyYAML](https://pypi.python.org/pypi/PyYAML/).
 
-to install them if you don't already have them follow the next command:
+to install them if you haven't already, follow the next command:
 
 ```bash
 $ sudo pip2 install *name of the library*
@@ -226,11 +226,9 @@ def main():
 Flowchart
 ---------
 
-### Overall ###
-
 ![alt text](https://github.com/Jellyfish03/RT1_Assignment1/blob/main/Assignment1_RT1/Pics/Function.png)
 
-### Move toward it (predefined process) ###
+### Move to Token process ###
 
 ![alt text](https://github.com/Jellyfish03/RT1_Assignment1/blob/main/Assignment1_RT1/Pics/Move%20to%20it.png)
 
