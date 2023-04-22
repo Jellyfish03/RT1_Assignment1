@@ -6,8 +6,8 @@ from sr.robot import *
 a_th = 2.0 #float: Threshold for the control of the orientation
 d_th = 0.4 #float: Threshold for the control of the linear distance
 
-fin_silver = [] #record the number of found silver token 
-fin_gold = [] #record the number of found gold tokens
+found_silver = [] #record the number of found silver token 
+found_gold = [] #record the number of found gold tokens
 
 R = Robot() #instance of the class Robot
 
@@ -15,7 +15,7 @@ def forward(speed, seconds):
     """
     This function is for moving forward
     Args:   speed (int): the speed of the wheels
-	        seconds (int): the time interval
+         seconds (int): the time interval
     """
     R.motors[0].m0.power = speed
     R.motors[0].m1.power = speed
@@ -27,7 +27,7 @@ def turn(speed, seconds):
     """
     This function is for turning
     Args:   speed (int): the speed of the wheels
-	        seconds (int): the time interval
+         seconds (int): the time interval
     """
     R.motors[0].m0.power = speed
     R.motors[0].m1.power = -speed/2
@@ -75,8 +75,7 @@ def rem(color, num):
     if  color == False: #counts golds
         found_gold.append(num)
         print("REACHED GOLD: "+str(found_gold))
-    elif   
-        color == True: #counts silvers
+    elif   color == True: #counts silvers
         found_silver.append(num)
         print("REACHED SILVER: "+str(found_silver))
 
@@ -100,6 +99,7 @@ def main():
             elif silver == False:
                 print("Here you are!")
                 R.release()
+                forward(-20,1)
                 rem(silver, num)
                 if len(found_gold) == 6:
                     forward(-20, 2)
@@ -117,5 +117,5 @@ def main():
         elif rot_y < -a_th: 
             print("left")
             turn(-4, 0.25)
-		
+  
 main()
